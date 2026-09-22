@@ -7,11 +7,11 @@ import flyingKite from "./assets/memory-flying-kite.jpg";
 
 /* Real kite cut-outs (transparent PNGs, hotlinked from freepnglogos) */
 const KITES = {
-  red: "https://www.freepnglogos.com/uploads/kite-png/kite-png-transparent-image-pngpix-9.png",
-  long: "https://www.freepnglogos.com/uploads/kite-png/kite-png-images-pngpix-10.png",
-  colorful: "https://www.freepnglogos.com/uploads/kite-png/colorful-kite-clip-art-clkerm-vector-clip-art-33.png",
-  blue: "https://www.freepnglogos.com/uploads/kite-png/kite-png-transparent-image-pngpix-2.png",
-  orange: "https://www.freepnglogos.com/uploads/kite-png/orange-kite-clip-art-clkerm-vector-clip-art-online-17.png",
+  red: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><polygon points="50,0 100,50 50,120 0,50" fill="%23ef4444"/><path d="M50 0 L50 120 M0 50 Q50 20 100 50" stroke="%23fee2e2" stroke-width="2.5" fill="none"/><polygon points="50,105 32,120 68,120" fill="%23dc2626"/></svg>`,
+  long: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140"><polygon points="50,0 100,50 50,140 0,50" fill="%23f59e0b"/><path d="M50 0 L50 140 M0 50 Q50 20 100 50" stroke="%23fef3c7" stroke-width="2.5" fill="none"/><polygon points="50,120 28,140 72,140" fill="%23d97706"/></svg>`,
+  colorful: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><polygon points="50,0 100,50 50,50" fill="%233b82f6"/><polygon points="50,0 0,50 50,50" fill="%23ec4899"/><polygon points="0,50 50,50 50,120" fill="%23eab308"/><polygon points="100,50 50,50 50,120" fill="%2322c55e"/><path d="M50 0 L50 120 M0 50 Q50 20 100 50" stroke="%23ffffff" stroke-width="2.5" fill="none"/><polygon points="50,105 32,120 68,120" fill="%23ec4899"/></svg>`,
+  blue: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><polygon points="50,0 100,50 50,120 0,50" fill="%2306b6d4"/><path d="M50 0 L50 120 M0 50 Q50 20 100 50" stroke="%23cffaff" stroke-width="2.5" fill="none"/><polygon points="50,105 32,120 68,120" fill="%230891b2"/></svg>`,
+  orange: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><polygon points="50,0 100,50 50,120 0,50" fill="%23f97316"/><path d="M50 0 L50 120 M0 50 Q50 20 100 50" stroke="%23ffedd5" stroke-width="2.5" fill="none"/><polygon points="50,105 32,120 68,120" fill="%23ea580c"/></svg>`,
 };
 
 /* ── A flying kite: real cut-out image + sway animation + optional string ── */
